@@ -7,11 +7,24 @@
 //
 
 import SwiftUI
+import UIKit
+import MapKit
+import CoreLocation
+import AVFoundation
 
-struct MapView : View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
-    }
+struct MapView : UIViewRepresentable {
+  
+  func makeUIView(context: Context) -> MKMapView {
+    MKMapView(frame: .zero)
+    
+  }
+  
+  func updateUIView(_ view: MKMapView, context: Context) {
+    
+  
+  
+ 
+}
 }
 
 #if DEBUG

@@ -7,3 +7,17 @@
 //
 
 import Foundation
+import UIKit
+import SwiftUI
+
+class TimerData {
+  
+  @State var time = 0
+  var timer = Timer()
+  
+  func startAction() {
+    timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { (<#Timer#>) in
+      <#code#>
+    })
+  }
+}

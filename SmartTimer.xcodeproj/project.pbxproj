@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30F46CFD22B9734600CD8882 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30F46CFC22B9734600CD8882 /* GoogleService-Info.plist */; };
+		4900E3C322B78C4C00F18952 /* LoginFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4900E3C222B78C4C00F18952 /* LoginFirebase.swift */; };
+		49037F6622ADB5D700227532 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49037F6522ADB5D700227532 /* Graph.swift */; };
+		4918426722AAC4D100DEE8AF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4918426622AAC4D100DEE8AF /* LoginView.swift */; };
+		491CAE5222B907FC0070F9BB /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491CAE5122B907FC0070F9BB /* FirebaseService.swift */; };
 		49201EB922A8DBC600103A99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49201EB822A8DBC600103A99 /* AppDelegate.swift */; };
 		49201EBB22A8DBC600103A99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49201EBA22A8DBC600103A99 /* SceneDelegate.swift */; };
 		49201EBE22A8DBC600103A99 /* SmartTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49201EBC22A8DBC600103A99 /* SmartTimer.xcdatamodeld */; };
@@ -14,9 +19,34 @@
 		49201EC222A8DBCB00103A99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49201EC122A8DBCB00103A99 /* Assets.xcassets */; };
 		49201EC522A8DBCB00103A99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49201EC422A8DBCB00103A99 /* Preview Assets.xcassets */; };
 		49201EC822A8DBCB00103A99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49201EC622A8DBCB00103A99 /* LaunchScreen.storyboard */; };
+		495FF01522B6835300D763A7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FF01422B6835300D763A7 /* Data.swift */; };
+		49B939B522B6C95300F9278B /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B939B422B6C95300F9278B /* TimerView.swift */; };
+		49B939BC22B6FBA900F9278B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B939BB22B6FBA900F9278B /* MapViewController.swift */; };
+		49B939C022B6FE3000F9278B /* MapViewIntegratedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B939BF22B6FE3000F9278B /* MapViewIntegratedController.swift */; };
+		49B939C222B700B100F9278B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B939C122B700B100F9278B /* MapKit.framework */; };
+		49BFC05422B86111000F2083 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BFC05222B86111000F2083 /* TimerViewController.swift */; };
+		49BFC05522B86111000F2083 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BFC05322B86111000F2083 /* TimerViewController.xib */; };
+		49BFC05722B8696F000F2083 /* TimerIntegratedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BFC05622B8696F000F2083 /* TimerIntegratedController.swift */; };
+		49D115A222B4E064009361EF /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D115A122B4E064009361EF /* PageViewController.swift */; };
+		49D115A422B4E12E009361EF /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D115A322B4E12E009361EF /* PageView.swift */; };
+		49D115A622B4E2AE009361EF /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D115A522B4E2AE009361EF /* PageControl.swift */; };
+		49D135FF22B3CA8C007B822E /* GraphKallories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D135FE22B3CA8C007B822E /* GraphKallories.swift */; };
+		49D20D5822AC255200DF1255 /* UserDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D20D5722AC255200DF1255 /* UserDashboardView.swift */; };
+		49D57ABD22AB8B260034A008 /* backgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D57ABC22AB8B260034A008 /* backgroundColor.swift */; };
+		49D986CD22B8C87200D9A0BA /* FirebaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D986CC22B8C87200D9A0BA /* FirebaseData.swift */; };
+		49D986CF22B8CF7100D9A0BA /* StartUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D986CE22B8CF7100D9A0BA /* StartUpViewController.swift */; };
+		49D986D122B8CF9400D9A0BA /* StartUpStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D986D022B8CF9400D9A0BA /* StartUpStoryboard.storyboard */; };
+		998C44AB6D5D44835F52B47A /* Pods_SmartTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38CD1693F4530CB54ECA739 /* Pods_SmartTimer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10BBF03C1E3D0C68E90B94C9 /* Pods-SmartTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTimer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartTimer/Pods-SmartTimer.release.xcconfig"; sourceTree = "<group>"; };
+		30F46CFC22B9734600CD8882 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		485D38E2503010F232E97149 /* Pods-SmartTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTimer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartTimer/Pods-SmartTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		4900E3C222B78C4C00F18952 /* LoginFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFirebase.swift; sourceTree = "<group>"; };
+		49037F6522ADB5D700227532 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		4918426622AAC4D100DEE8AF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		491CAE5122B907FC0070F9BB /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
 		49201EB522A8DBC600103A99 /* SmartTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49201EB822A8DBC600103A99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49201EBA22A8DBC600103A99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +56,24 @@
 		49201EC422A8DBCB00103A99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49201EC722A8DBCB00103A99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49201EC922A8DBCB00103A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		495FF01422B6835300D763A7 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		49B939B422B6C95300F9278B /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		49B939BB22B6FBA900F9278B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		49B939BF22B6FE3000F9278B /* MapViewIntegratedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewIntegratedController.swift; sourceTree = "<group>"; };
+		49B939C122B700B100F9278B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		49BFC05222B86111000F2083 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		49BFC05322B86111000F2083 /* TimerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerViewController.xib; sourceTree = "<group>"; };
+		49BFC05622B8696F000F2083 /* TimerIntegratedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerIntegratedController.swift; sourceTree = "<group>"; };
+		49D115A122B4E064009361EF /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		49D115A322B4E12E009361EF /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		49D115A522B4E2AE009361EF /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		49D135FE22B3CA8C007B822E /* GraphKallories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphKallories.swift; sourceTree = "<group>"; };
+		49D20D5722AC255200DF1255 /* UserDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDashboardView.swift; sourceTree = "<group>"; };
+		49D57ABC22AB8B260034A008 /* backgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backgroundColor.swift; sourceTree = "<group>"; };
+		49D986CC22B8C87200D9A0BA /* FirebaseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseData.swift; sourceTree = "<group>"; };
+		49D986CE22B8CF7100D9A0BA /* StartUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUpViewController.swift; sourceTree = "<group>"; };
+		49D986D022B8CF9400D9A0BA /* StartUpStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StartUpStoryboard.storyboard; sourceTree = "<group>"; };
+		C38CD1693F4530CB54ECA739 /* Pods_SmartTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B939C222B700B100F9278B /* MapKit.framework in Frameworks */,
+				998C44AB6D5D44835F52B47A /* Pods_SmartTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +94,8 @@
 			children = (
 				49201EB722A8DBC600103A99 /* SmartTimer */,
 				49201EB622A8DBC600103A99 /* Products */,
+				765B85EE3B68D9C7989B1E5C /* Pods */,
+				C1267BE2066E235808C2673E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,12 +112,32 @@
 			children = (
 				49201EB822A8DBC600103A99 /* AppDelegate.swift */,
 				49201EBA22A8DBC600103A99 /* SceneDelegate.swift */,
+				49D57ABB22AB8AD70034A008 /* AdditionalView */,
 				49201EBF22A8DBC600103A99 /* ContentView.swift */,
+				49D20D5722AC255200DF1255 /* UserDashboardView.swift */,
+				49037F6522ADB5D700227532 /* Graph.swift */,
+				49D135FE22B3CA8C007B822E /* GraphKallories.swift */,
+				49B939B422B6C95300F9278B /* TimerView.swift */,
+				30F46CFC22B9734600CD8882 /* GoogleService-Info.plist */,
+				4918426622AAC4D100DEE8AF /* LoginView.swift */,
 				49201EC122A8DBCB00103A99 /* Assets.xcassets */,
-				49201EC622A8DBCB00103A99 /* LaunchScreen.storyboard */,
-				49201EC922A8DBCB00103A99 /* Info.plist */,
-				49201EBC22A8DBC600103A99 /* SmartTimer.xcdatamodeld */,
 				49201EC322A8DBCB00103A99 /* Preview Content */,
+				49D115A122B4E064009361EF /* PageViewController.swift */,
+				49D115A322B4E12E009361EF /* PageView.swift */,
+				49D115A522B4E2AE009361EF /* PageControl.swift */,
+				49B939BB22B6FBA900F9278B /* MapViewController.swift */,
+				49B939BF22B6FE3000F9278B /* MapViewIntegratedController.swift */,
+				49201EBC22A8DBC600103A99 /* SmartTimer.xcdatamodeld */,
+				49201EC922A8DBCB00103A99 /* Info.plist */,
+				49201EC622A8DBCB00103A99 /* LaunchScreen.storyboard */,
+				4900E3C222B78C4C00F18952 /* LoginFirebase.swift */,
+				49BFC05222B86111000F2083 /* TimerViewController.swift */,
+				49BFC05322B86111000F2083 /* TimerViewController.xib */,
+				49BFC05622B8696F000F2083 /* TimerIntegratedController.swift */,
+				49D986CC22B8C87200D9A0BA /* FirebaseData.swift */,
+				49D986CE22B8CF7100D9A0BA /* StartUpViewController.swift */,
+				49D986D022B8CF9400D9A0BA /* StartUpStoryboard.storyboard */,
+				491CAE5122B907FC0070F9BB /* FirebaseService.swift */,
 			);
 			path = SmartTimer;
 			sourceTree = "<group>";
@@ -78,6 +150,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		49D57ABB22AB8AD70034A008 /* AdditionalView */ = {
+			isa = PBXGroup;
+			children = (
+				49D57ABC22AB8B260034A008 /* backgroundColor.swift */,
+				495FF01422B6835300D763A7 /* Data.swift */,
+			);
+			path = AdditionalView;
+			sourceTree = "<group>";
+		};
+		765B85EE3B68D9C7989B1E5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				485D38E2503010F232E97149 /* Pods-SmartTimer.debug.xcconfig */,
+				10BBF03C1E3D0C68E90B94C9 /* Pods-SmartTimer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1267BE2066E235808C2673E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49B939C122B700B100F9278B /* MapKit.framework */,
+				C38CD1693F4530CB54ECA739 /* Pods_SmartTimer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49201ECC22A8DBCB00103A99 /* Build configuration list for PBXNativeTarget "SmartTimer" */;
 			buildPhases = (
+				7085E1CE3DCEA6F3DC838AF8 /* [CP] Check Pods Manifest.lock */,
 				49201EB122A8DBC600103A99 /* Sources */,
 				49201EB222A8DBC600103A99 /* Frameworks */,
 				49201EB322A8DBC600103A99 /* Resources */,
+				1EBE45C4966C980E2CD0B9D4 /* [CP] Embed Pods Frameworks */,
+				0B032052C933B31F8D5E4D8F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,22 +239,132 @@
 			buildActionMask = 2147483647;
 			files = (
 				49201EC822A8DBCB00103A99 /* LaunchScreen.storyboard in Resources */,
+				49D986D122B8CF9400D9A0BA /* StartUpStoryboard.storyboard in Resources */,
 				49201EC522A8DBCB00103A99 /* Preview Assets.xcassets in Resources */,
+				49BFC05522B86111000F2083 /* TimerViewController.xib in Resources */,
 				49201EC222A8DBCB00103A99 /* Assets.xcassets in Resources */,
+				30F46CFD22B9734600CD8882 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B032052C933B31F8D5E4D8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmartTimer/Pods-SmartTimer-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartTimer/Pods-SmartTimer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EBE45C4966C980E2CD0B9D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmartTimer/Pods-SmartTimer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${PODS_ROOT}/HEREMapsStarter/framework/NMAKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MBCircularProgressBar/MBCircularProgressBar.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NMAKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBCircularProgressBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartTimer/Pods-SmartTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7085E1CE3DCEA6F3DC838AF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartTimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		49201EB122A8DBC600103A99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B939B522B6C95300F9278B /* TimerView.swift in Sources */,
+				4918426722AAC4D100DEE8AF /* LoginView.swift in Sources */,
+				49D115A422B4E12E009361EF /* PageView.swift in Sources */,
 				49201EB922A8DBC600103A99 /* AppDelegate.swift in Sources */,
+				49D115A622B4E2AE009361EF /* PageControl.swift in Sources */,
+				49BFC05722B8696F000F2083 /* TimerIntegratedController.swift in Sources */,
+				49D986CD22B8C87200D9A0BA /* FirebaseData.swift in Sources */,
+				49D115A222B4E064009361EF /* PageViewController.swift in Sources */,
+				49B939C022B6FE3000F9278B /* MapViewIntegratedController.swift in Sources */,
 				49201EBE22A8DBC600103A99 /* SmartTimer.xcdatamodeld in Sources */,
+				495FF01522B6835300D763A7 /* Data.swift in Sources */,
+				49D20D5822AC255200DF1255 /* UserDashboardView.swift in Sources */,
 				49201EC022A8DBC600103A99 /* ContentView.swift in Sources */,
+				49037F6622ADB5D700227532 /* Graph.swift in Sources */,
+				4900E3C322B78C4C00F18952 /* LoginFirebase.swift in Sources */,
+				491CAE5222B907FC0070F9BB /* FirebaseService.swift in Sources */,
+				49D986CF22B8CF7100D9A0BA /* StartUpViewController.swift in Sources */,
+				49D57ABD22AB8B260034A008 /* backgroundColor.swift in Sources */,
 				49201EBB22A8DBC600103A99 /* SceneDelegate.swift in Sources */,
+				49D135FF22B3CA8C007B822E /* GraphKallories.swift in Sources */,
+				49BFC05422B86111000F2083 /* TimerViewController.swift in Sources */,
+				49B939BC22B6FBA900F9278B /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +498,7 @@
 		};
 		49201ECD22A8DBCB00103A99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485D38E2503010F232E97149 /* Pods-SmartTimer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,7 +510,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Lisogor.inc.SmartTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = ZozuliaAndrii.inc.SmartTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,6 +519,7 @@
 		};
 		49201ECE22A8DBCB00103A99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10BBF03C1E3D0C68E90B94C9 /* Pods-SmartTimer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,7 +531,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Lisogor.inc.SmartTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = ZozuliaAndrii.inc.SmartTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

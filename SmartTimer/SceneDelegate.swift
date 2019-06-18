@@ -9,6 +9,7 @@
 import UIKit
 import SwiftUI
 
+
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
   var window: UIWindow?
@@ -18,12 +19,25 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-
+   /* let storyboard = UIStoryboard(name: "StartUpStoryboard", bundle: nil)
+    
+    let viewController = storyboard.instantiateViewController(withIdentifier: "startUp")
+    
+    window?.rootViewController = viewController
+    window?.makeKeyAndVisible()*/
     // Use a UIHostingController as window root view controller
-    let window = UIWindow(frame: UIScreen.main.bounds)
-    window.rootViewController = UIHostingController(rootView: ContentView())
+   /*let window = UIWindow(frame: UIScreen.main.bounds)
+    window.rootViewController = StartUpViewController()
+      //UIHostingController(rootView: StartUpView())
     self.window = window
-    window.makeKeyAndVisible()
+    window.makeKeyAndVisible()*/
+    
+    let mainStoryboardIpad : UIStoryboard = UIStoryboard(name: "StartUpStoryboard", bundle: nil)
+    
+    let initialViewControlleripad : UIViewController = mainStoryboardIpad.instantiateViewController(withIdentifier: "StartUpViewController") as UIViewController
+    self.window = UIWindow(frame: UIScreen.main.bounds)
+    self.window?.rootViewController = initialViewControlleripad
+    self.window?.makeKeyAndVisible()
   }
 
   func sceneDidDisconnect(_ scene: UIScene) {

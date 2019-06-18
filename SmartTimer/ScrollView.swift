@@ -7,11 +7,21 @@
 //
 
 import SwiftUI
+import UIKit
 
-struct ScrollView : View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
-    }
+struct ScrollView : UIViewRepresentable {
+  func makeUIView(context: UIViewRepresentableContext<ScrollView>) -> UIScrollView {
+    UIScrollView()
+  }
+  
+  func updateUIView(_ uiView: UIScrollView, context: UIViewRepresentableContext<ScrollView>) {
+    
+    uiView.backgroundColor = UIColor.clear
+    uiView.alwaysBounceVertical = true
+    uiView.flashScrollIndicators()
+    
+  }
+  
 }
 
 #if DEBUG

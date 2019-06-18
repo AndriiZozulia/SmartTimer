@@ -8,11 +8,17 @@
 
 import SwiftUI
 
-struct TimerIntegratedController : View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
-    }
+struct TimerIntegratedController : UIViewControllerRepresentable {
+  
+  func makeUIViewController(context: UIViewControllerRepresentableContext<TimerIntegratedController>) -> TimerViewController {
+    return TimerViewController()
+  }
+  
+  func updateUIViewController(_ uiViewController: TimerViewController, context: UIViewControllerRepresentableContext<TimerIntegratedController>) {
+    
+  }
 }
+
 
 #if DEBUG
 struct TimerIntegratedController_Previews : PreviewProvider {

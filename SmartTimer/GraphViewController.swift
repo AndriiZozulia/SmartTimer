@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import MBCircularProgressBar
 
 class GraphViewController: UIViewController {
 
-    override func viewDidLoad() {
+  @IBOutlet var progressGraph: MBCircularProgressBarView!
+  
+  override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

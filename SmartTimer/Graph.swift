@@ -24,7 +24,9 @@ struct Graph : UIViewRepresentable {
     uiView.backgroundColor = UIColor.clear
     uiView.progressColor = UIColor.blue
     uiView.progressStrokeColor = UIColor.blue
-    uiView.value = 14
+    //uiView.value = 14
+    
+    
   }
   
   

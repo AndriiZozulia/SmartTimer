@@ -8,9 +8,31 @@
 
 import SwiftUI
 
+
 struct backgroundColor : View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+      ZStack {
+        
+        
+        Group {
+          Rectangle().edgesIgnoringSafeArea(.all)
+          //Image("zombie")
+          }
+          
+          .blur(radius: 20)
+          .foregroundColor(Color.init(hue: 0.5583, saturation: 0.96, brightness: 0.53))
+        Group {
+          Rectangle()
+            .opacity(0.5)
+            .foregroundColor(Color.gray)
+          .edgesIgnoringSafeArea(.all)
+          }
+          //.blur(radius: 900, opaque: false)
+        
+        
+        
+      }
+      
     }
 }
 

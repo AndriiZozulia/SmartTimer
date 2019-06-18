@@ -9,10 +9,23 @@
 import SwiftUI
 
 struct ContentView : View {
-    var body: some View {
-        Text("Hello World")
+  var body: some View {
+    
+    
+
+      
+      
+      VStack(alignment: .leading) {
+        Text("Andrew Lisogor")
+        Text("Hello")
+        }
+
     }
+      
+
 }
+
+
 
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {

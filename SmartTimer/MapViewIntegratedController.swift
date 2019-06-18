@@ -8,10 +8,15 @@
 
 import SwiftUI
 
-struct MapViewIntegratedController : View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
-    }
+struct MapViewIntegratedController : UIViewControllerRepresentable {
+  
+  func makeUIViewController(context: UIViewControllerRepresentableContext<MapViewIntegratedController>) -> MapViewController {
+    return MapViewController()
+  }
+  
+  func updateUIViewController(_ uiViewController: MapViewController, context: UIViewControllerRepresentableContext<MapViewIntegratedController>) {
+    
+  }
 }
 
 #if DEBUG
@@ -21,3 +26,4 @@ struct MapViewIntegratedController_Previews : PreviewProvider {
     }
 }
 #endif
+

@@ -7,11 +7,24 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct TimerView : View {
+  
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+      //NavigationView {
+      VStack {
+          MapViewIntegratedController()
+          .padding(.bottom, 20.0)
+          .frame(width: 420, height: 300, alignment: .center)
+        
+          
+         TimerIntegratedController()
+      }
     }
+  
+  
+      
 }
 
 #if DEBUG

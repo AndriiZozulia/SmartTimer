@@ -7,17 +7,35 @@
 //
 
 import SwiftUI
+import UIKit
+import MBCircularProgressBar
 
-struct GraphKallories : View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
-    }
+struct GraphKallories : UIViewRepresentable {
+  
+  func makeUIView(context: UIViewRepresentableContext<GraphKallories>) -> MBCircularProgressBarView {
+    MBCircularProgressBarView()
+    
+  }
+  
+  
+  func updateUIView(_ uiView: MBCircularProgressBarView, context: UIViewRepresentableContext<GraphKallories>) {
+    uiView.fontColor = UIColor.red
+    uiView.showValueString = true
+    uiView.backgroundColor = UIColor.clear
+    uiView.progressColor = UIColor.red
+    uiView.progressStrokeColor = UIColor.red
+    uiView.value = 20
+  }
+  
+  
+  
+  
 }
 
 #if DEBUG
 struct GraphKallories_Previews : PreviewProvider {
-    static var previews: some View {
-        GraphKallories()
-    }
+  static var previews: some View {
+    Graph()
+  }
 }
 #endif
